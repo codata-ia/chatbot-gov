@@ -32,5 +32,17 @@ def predict(message, history, temperature=0.7):
             partial_message = partial_message + chunk.choices[0].delta.content
             yield partial_message
 
-chat = gr.ChatInterface(predict).queue()
-chat.launch(share = True, debug=True)
+chat = gr.ChatInterface(fn=predict, 
+                        title="Chatbot Detran-PB",
+                        chatbot=gr.Chatbot(height=300,
+                                           label="Chatbot Detran-PB"),
+                        textbox=gr.Textbox(placeholder="Insira sua duvida aqui", 
+                                           container=False, 
+                                           scale=7),
+                        submit_btn="Enviar",
+                        stop_btn="Parar",                         
+                        retry_btn = None, 
+                        clear_btn=None, 
+                        undo_btn=None                          
+                        ).queue()
+chat.launch(share = False, debug=True)
