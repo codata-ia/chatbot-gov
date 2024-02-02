@@ -1,19 +1,16 @@
-Descricao: Servico que possibilita a simples Renovacao de CNH vencida com ou sem Atividade Remunerada (EAR).
+Description: Service that allows the simple Renewal of an expired driver's license with or without Paid Activity (EAR).
 
-Procedimentos em ordem:
+PROCEDURES IN ORDER FOR RENEWING CNH
+1. Access the “Services Portal” at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app and create your account (pay attention to the code which will be sent by email to validate your registration and create an access password);
+2. In your registration, services column, in the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, select Qualification, Services, S21- ISSUE OF CNH BILLETS, issue the CNH RENEWAL guide. ATTENTION: Pay and keep the invoice (you will need the paid invoice number – our number – to schedule all exams). The bill is cleared within 24 hours;
+3. Access S18-REQUEST CNH RENEWAL at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, fill in the data, generate and issue your Proof of Renewal - RENACH. NOTE: In this option, you can choose the location to receive your CNH;
+4. Access the scheduling page, at the link, https://wsdetran.pb.gov.br/detran-agendamento/inicio, select “Habilitation”, follow to schedule “ONLINE Capture (Photo and Biometrics) in person". Save the appointment or print it and show up at the scheduled place, date and time with the following documents indicated in the respective appointment;
+5. In the option S17-MEDICAL EXAM SCHEDULE, at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, schedule your medical exam (from view) with CPF and renewal guide number (our number) and appear at the scheduled location, date and time, taking proof of appointment and official document with photo (exam and paid to the clinic on the day of the exam);
+6. After passing all exams, follow the confirmation of the issuance of the CNH at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, at option S35- CHECK CNH STATUS. When the “CNH Status” is “CONFIRMED ISSUE”, access the appointments page - https://wsdetran.pb.gov.br/detran-agendamento/inicio -, “Habilitation” and schedule “Receipt of Qualification (Printed CNH )”. Save the appointment or print it and show up at the scheduled location, date and time with the following documents indicated in the respective appointment.
 
-1. Acesse o “Portal de Servicos” no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app e crie sua conta (fique atento ao código que será enviado por e-mail para validar seu cadastro e criar senha de acesso);
-2. No seu cadastro, coluna de servicos, no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, selecione Habilitacao, Servicos, S21-EMISSaO DE BOLETOS CNH, emita a guia de RENOVAcaO CNH. ATENcaO: Pague e guarde o boleto (irá precisar do número do boleto pago – nosso número – para marcar todos os exames). Em até 24 horas o boleto é compensado;
-3. Acesse S18-SOLICITAR RENOVACAO CNH no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app , preencha os dados, gere e emita o seu Comprovante de Renovacao - RENACH. OBSERVAcaO: Nessa opcao será possível escolher o local de recebimento da sua CNH;
-4. Acesse a página de agendamentos, no link, https://wsdetran.pb.gov.br/detran-agendamento/inicio, selecione “Habilitacao”, siga para agendar “Captura ONLINE (Foto e Biometria presencial)”. Salve o agendamento ou imprima e compareca no local, data e horário agendado com os seguintes documentos indicados no respectivo agendamento;
-5. Na opcao S17-AGENDAMENTO DE EXAME MÉDICO, no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, agende seu exame médico (de vista) com CPF e número da guia de renovacao (nosso número) e compareca no local, data e horário agendado, levando o comprovante de agendamento e documento oficial com foto (exame e pago à clínica no dia do exame);
-6. Após apto em todos os exames, acompanhe a confirmacao da emissao da CNH no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, na opcao S35- CONSULTAR SITUAcaO DA CNH. Quando a “Situacao da CNH” estiver “CONFIRMADA EMISSaO”, acesse a página de agendamentos - https://wsdetran.pb.gov.br/detran-agendamento/inicio - , “Habilitacao” e agende “Recebimento de Habilitacao (CNH Impressa)”. Salve o agendamento ou imprima e compareca no local, data e horário agendado com os seguintes documentos indicados no respectivo agendamento.
+PAID ACTIVITY(EAR)
+Procedure for renewing your driver's license (exclusive case of Paid Activity) - USE THIS OPTION ONLY IF YOU EXERCISE PAID ACTIVITY (EAR) - In option S25 - PSYCHOTECHNICAL EXAM SCHEDULING at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app with CPF and renewal slip number (our number) and appear at the scheduled location, date and time, taking proof of appointment and official document with photo (the exam is paid for at the clinic on the day of the exam);
 
-Caso exclusivo de Atividade Remunerada:
-1. USE ESSA OPcaO APENAS SE EXERCER ATIVIDADE REMUNERADA (EAR) - Na opcao S25- AGENDAMENTO DE EXAME PSICOTÉCNICO no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app  com CPF e número da guia de renovacao (nosso número) e compareca no local, data e horário agendado, levando o comprovante de agendamento e documento oficial com foto (o exame é pago à clínica no dia do exame);.
-
-
-Observacoes:
-
-1.OBSERVACAO: para as categorias C, D, E, é necessário realizar o exame toxicológico antes do exame de vista. Procure laboratório credenciado.
-2.ATENCAO: caso fique “Inapto” ou “falte” aos exames, agendar o RETESTE acessando o agendamento do respectivo exame, com o CPF e mantendo o campo de número da guia de recolhimento zerado. Compareca no local, data e horário agendado, levando o comprovante de agendamento e documento oficial com foto (exame e pago a clínica no dia do exame);
+OBSERVATIONS
+NOTE: for categories C, D, E, it is necessary to carry out a toxicological test before the eye test. Look for an accredited laboratory.
+ATTENTION: if you are “Unfit” or “miss” the exams, schedule the RETEST by accessing the respective exam schedule, with the CPF and keeping the collection slip number field zero. Arrive at the scheduled location, date and time, bringing proof of appointment and official document with photo (exam and payment to the clinic on the day of the exam);
