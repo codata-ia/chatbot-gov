@@ -16,16 +16,10 @@ import constants
 # Set up OpenAI API key
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
-system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour taks is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
+system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
 
-css = ".wrapper {background: url('file=chatgpt-clone/images/detranBackgroudWhite.jpg'); background-size: cover; background-position: center}"
-
-translatorEnToPt = Translator(provider='libre', from_lang='en', to_lang='pt')
-
-translatorPtToEn = Translator(provider='libre', from_lang='pt', to_lang='en')
-
-with gr.Blocks(css=css) as demo:
-    loader = TextLoader('chatgpt-clone/processData/cnhRenovationProcess.txt', encoding="utf8")
+with gr.Blocks() as demo:
+    loader = TextLoader('processData/processoRenovacaoCNH.txt', encoding="utf8")
     loader.load()
     index = VectorstoreIndexCreator().from_loaders([loader])
 
@@ -81,4 +75,4 @@ with gr.Blocks(css=css) as demo:
 
     clear.click(lambda: None, None, chatbot, queue=False).success(init_history, [state], [state])
 
-demo.launch(allowed_paths=list("chatgpt-clone/images/detranBackgroudWhite.jpg"))
+demo.launch()

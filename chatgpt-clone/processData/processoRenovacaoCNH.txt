@@ -1,0 +1,16 @@
+Descrição: Serviço que permite a simples Renovação de CNH vencida com ou sem Atividade Remunerada (EAR).
+
+TODOS OS PROCEDIMENTOS PARA RENOVAÇÃO DA CNH
+1. Acesse o “Portal de Serviços” no link https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app e crie sua conta (preste atenção no código que será enviado pelo e-mail para validar seu cadastro e criar uma senha de acesso);
+2. Em seu cadastro, coluna serviços, no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, selecione Habilitação, Serviços, S21- EMISSÃO DE BOLETOS DE CNH, emissão o guia de RENOVAÇÃO da CNH. ATENÇÃO: Pague e guarde a fatura (você precisará do número da fatura paga – nosso número – para agendar todos os exames). A fatura é compensada em 24 horas;
+3. Acesse S18-PEDIDO DE RENOVAÇÃO DE CNH no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, preencha os dados, gere e emita seu Comprovante de Renovação - RENACH . OBS: Nesta opção você pode escolher o local para receber sua CNH;
+4. Acesse a página de agendamento, no link, https://wsdetran.pb.gov.br/detran-agendamento/inicio, selecione “Habilitação”, siga para agendar “Captura ONLINE (Foto e Biometria) presencial”. marcação da consulta ou imprimi-la e comparecer no local, data e hora marcada munida dos seguintes documentos indicados na respetiva consulta;
+5. Na opção S17-AGENDAMENTO DE EXAME MÉDICO, no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, agende seu exame médico (a vista) com CPF e número guia de renovação (nosso número) e comparecer no local, data e horário agendados, levando comprovante de agendamento e documento oficial com foto (exame e pago na clínica no dia do exame);
+6. Após aprovação em todos os exames, acompanhe a confirmação da emissão da CNH no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, na opção S35- VERIFICAR CNH STATUS. Quando a “Situação da CNH” for “Emissão CONFIRMADA”, acesse a página de agendamentos – https://wsdetran.pb.gov.br/detran-agendamento/inicio -, “Habilitação” e agende “Recibo de Habilitação (CNH Impressa)” . Guarde a consulta ou imprima-a e compareça no local, data e hora marcada munida dos seguintes documentos indicados na respetiva consulta.
+
+ATIVIDADE Remunerada (EAR)
+Procedimento para renovação da CNH (exclusivo caso de Atividade Remunerada) - USE ESTA OPÇÃO SOMENTE SE EXERCER ATIVIDADE PAGA (EAR) - Na opção S25 - AGENDAMENTO DE EXAMES PSICOTÉCNICOS no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app com CPF e número do comprovante de renovação (nosso número) e comparecer no local, data e horário agendados, levando comprovante de agendamento e documento oficial com foto (o exame é pago na clínica no dia do exame);
+
+OBSERVAÇÕES
+NOTA: para as categorias C, D, E é necessária a realização de teste toxicológico antes do exame oftalmológico. Procure um laboratório credenciado.
+ATENÇÃO: caso você esteja “Inapto” ou “faltar” aos exames, agende o RETESTE acessando o respectivo calendário de exames, com o CPF e mantendo o campo do número do comprovante de coleta zerado. Comparecer ao local, data e horário agendados, trazendo comprovante de agendamento e documento oficial com foto (exame e pagamento à clínica no dia do exame);

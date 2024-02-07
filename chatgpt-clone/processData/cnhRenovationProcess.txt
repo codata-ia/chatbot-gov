@@ -1,6 +1,6 @@
 Description: Service that allows the simple Renewal of an expired driver's license with or without Paid Activity (EAR).
 
-PROCEDURES IN ORDER FOR RENEWING CNH
+ALL PROCEDURES FOR RENEWING CNH
 1. Access the “Services Portal” at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app and create your account (pay attention to the code which will be sent by email to validate your registration and create an access password);
 2. In your registration, services column, in the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, select Qualification, Services, S21- ISSUE OF CNH BILLETS, issue the CNH RENEWAL guide. ATTENTION: Pay and keep the invoice (you will need the paid invoice number – our number – to schedule all exams). The bill is cleared within 24 hours;
 3. Access S18-REQUEST CNH RENEWAL at the link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, fill in the data, generate and issue your Proof of Renewal - RENACH. NOTE: In this option, you can choose the location to receive your CNH;
