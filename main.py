@@ -37,10 +37,13 @@ chat = gr.ChatInterface(fn=predict,
                             primary_hue="sky",
                             secondary_hue="neutral",
                             neutral_hue="cyan",
-                            ),
-                        title="Chatbot Detran-PB",
+                        ).set(
+                            background_fill_primary='#3a89c9',
+                            background_fill_primary_dark='#0f2f4e'
+                        ),
+                        title="<div style='text-align: center;'><img src='https://detran.pb.gov.br/imagens/imagens-detran/detran-pb.png/@@images/ccf2a27c-e576-48a9-8f58-e9ec637035b7.png' style='display: block; margin: auto;  width: 300px;'></div>",
                         chatbot=gr.Chatbot(height=300,
-                                           label="Chatbot Detran-PB"),
+                                           label="Chatbot"),
                         textbox=gr.Textbox(placeholder="Insira sua duvida aqui", 
                                            container=False, 
                                            scale=7),
@@ -51,3 +54,6 @@ chat = gr.ChatInterface(fn=predict,
                         undo_btn=None                          
                         ).queue()
 chat.launch(share = False, debug=True)
+
+#3a89c9
+#0f2f4e
