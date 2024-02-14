@@ -33,6 +33,11 @@ def predict(message, history, temperature=0.7):
             yield partial_message
 
 chat = gr.ChatInterface(fn=predict, 
+                        theme= gr.themes.Soft(
+                            primary_hue="sky",
+                            secondary_hue="neutral",
+                            neutral_hue="cyan",
+                            ),
                         title="Chatbot Detran-PB",
                         chatbot=gr.Chatbot(height=300,
                                            label="Chatbot Detran-PB"),
