@@ -18,7 +18,19 @@ os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
 system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
 
-with gr.Blocks() as demo:
+theme = gr.themes.Soft(
+        primary_hue="sky",
+        secondary_hue="neutral",
+        neutral_hue="cyan",
+        ).set(
+            background_fill_primary='#3a89c9',
+            background_fill_primary_dark='#0f2f4e'
+)
+
+with gr.Blocks(theme=theme) as demo:
+   
+    title = gr.HTML("<div style='text-align: center;'><img src='https://detran.pb.gov.br/imagens/imagens-detran/detran-pb.png/@@images/ccf2a27c-e576-48a9-8f58-e9ec637035b7.png' style='display: block; margin: auto;  width: 300px;'></div>")
+    
     loader = TextLoader('processData/processoRenovacaoCNH.txt', encoding="utf8")
     loader.load()
     index = VectorstoreIndexCreator().from_loaders([loader])

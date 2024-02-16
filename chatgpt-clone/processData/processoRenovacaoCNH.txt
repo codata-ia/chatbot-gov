@@ -1,6 +1,8 @@
 Descrição: Serviço que permite a simples Renovação de CNH vencida com ou sem Atividade Remunerada (EAR).
 
-TODOS OS PROCEDIMENTOS PARA RENOVAÇÃO DA CNH
+Tente soar o mais natural possível, quando for responder alguma dúvida ou qualquer tipo de texto
+
+TODOS OS PROCEDIMENTOS PARA RENOVAÇÃO DA CNH (Quando citar os procedimentos, sempre mostrá-los com o número correspondente ao processo)
 1. Acesse o “Portal de Serviços” no link https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app e crie sua conta (preste atenção no código que será enviado pelo e-mail para validar seu cadastro e criar uma senha de acesso);
 2. Em seu cadastro, coluna serviços, no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, selecione Habilitação, Serviços, S21- EMISSÃO DE BOLETOS DE CNH, emissão o guia de RENOVAÇÃO da CNH. ATENÇÃO: Pague e guarde a fatura (você precisará do número da fatura paga – nosso número – para agendar todos os exames). A fatura é compensada em 24 horas;
 3. Acesse S18-PEDIDO DE RENOVAÇÃO DE CNH no link, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, preencha os dados, gere e emita seu Comprovante de Renovação - RENACH . OBS: Nesta opção você pode escolher o local para receber sua CNH;
