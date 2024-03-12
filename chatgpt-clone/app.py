@@ -17,7 +17,7 @@ import constants
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
 system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
-
+"""
 theme = gr.themes.Soft(
         primary_hue="sky",
         secondary_hue="neutral",
@@ -26,17 +26,55 @@ theme = gr.themes.Soft(
             background_fill_primary='#3a89c9',
             background_fill_primary_dark='#0f2f4e'
 )
+"""
 
-with gr.Blocks(theme=theme) as demo:
-   
-    title = gr.HTML("<div style='text-align: center;'><img src='https://detran.pb.gov.br/imagens/imagens-detran/detran-pb.png/@@images/ccf2a27c-e576-48a9-8f58-e9ec637035b7.png' style='display: block; margin: auto;  width: 300px;'></div>")
+css = """
+    .gradio-container-4-16-0 {background-color: white;}
+    .wrapper.svelte-nab2ao {background-color: white;
+    border: solid 8px;
+    border-color: #F9EC00;
+    }
+    label.svelte-1b6s6s{background-color: #ff4949;
+    border-radius: 5px;
+    position: static;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    border-color: #ff4949;
+    }
+    .scroll-hide svelte-1f354aw{background-color: white;}
+    .user.svelte-1lcyrx4.svelte-1lcyrx4.svelte-1lcyrx4{background-color: #07542b;}
+    .bot.svelte-1lcyrx4.svelte-1lcyrx4.svelte-1lcyrx4{background-color: #2484c6;}
+    .block.svelte-90oupt{background-color: darkgrey;}
+    textarea.svelte-1f354aw.svelte-1f354aw{background-color: white;
+    color:black;
+    }
+    .pending.svelte-1gpwetz{
+    background-color: darkgrey;
+    }
+    span.svelte-1gfkn6j:not(.has-info) {
+    margin-bottom: var(--spacing-lg);
+    color: white;
+    }
+    *{border: none;}
+    .divisoria-colorida-governo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 14px;
+    position: relative;
+    width: 100%;
+    }
+"""
+
+with gr.Blocks(css=css) as demo:
+    title = gr.HTML("<div class='divisoria-colorida-governo'><div class='cor-1' style='background-color: #ffeb36;'></div><div class='cor-2' style='background-color: #f72930;'></div><div class='cor-3' style='background-color: #399fe8;'></div><div class='cor-4' style='background-color: #00dc58;'></div><div class='cor-5' style='background-color: #0f0a0a;'></div></div><div style='text-align: center; background-color: white;'><img src='https://paraiba.pb.gov.br/imagens/imagens-site/marca-stp/Govpb.png/@@images/abaa40cc-5d26-41fc-bc49-1e4679d05a79.png' style='display: block; margin: auto;  width: 300px;'></div>")
     
     loader = TextLoader('processData/processoRenovacaoCNH.txt', encoding="utf8")
     loader.load()
     index = VectorstoreIndexCreator().from_loaders([loader])
 
-    chatbot = gr.Chatbot(label="Chatbot do Detran-PB")
-    msg = gr.Textbox(label="Caixa de texto", placeholder="Digite a sua dúvida")
+    chatbot = gr.Chatbot(label="Chatbot")
+    msg = gr.Textbox(label="Caixa de texto", placeholder="Digite a sua dúvida", )
     clear = gr.Button("Reiniciar conversa")
 
     state = gr.State([])
