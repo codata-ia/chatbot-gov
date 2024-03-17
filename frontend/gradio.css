@@ -1,5 +1,80 @@
-
-.button {
-    height: 23px;    
+.body{
+    background-color: #fff;
+}
+.body.dark{
+    background-color: #fff;
 }
 
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitle{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitle textarea{
+    color: black;
+    background-color: white;
+}
+.painel{
+    border: white;
+}
+.row-chat{
+    background-color: #ffe425;
+}
+.row-user{
+    background-color: #ffe425;
+}
+
+.chatbot label{
+    background: #399fe8;
+    color: #fff;
+}
+
+.message.user{
+    background-color: white;
+    color: black;
+}
+
+.message.bot{
+    background-color: #399fe8;
+    color: white;
+}
+
+.textbox{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 62px;
+}
+
+.textbox textarea{
+    background-color: #fff;
+    color: black;
+    min-height: 40px;
+}
+
+
+.button {
+    height: 23px;   
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.submit{
+    border: #0f0a0a;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer {visibility: hidden}
+  
+@media screen and (max-width: 768px) {
+    .cor {
+        width: calc(100%/3);
+    };
+    .cor4,.cor5 {
+        display: none;
+    };
+}

@@ -8,6 +8,9 @@ def converter_para_json(texto):
     texto_com_quebra_de_linha = texto.replace('\n',';')
     return {"role": "system", "content": texto_com_quebra_de_linha}
 
+def converter_aquivo_para_json(nome_arquivo):
+    return converter_para_json(ler_texto_de_arquivo(nome_arquivo))
+
 def salvar_json(json_data, nome_arquivo_saida):
     with open(nome_arquivo_saida, 'w', encoding='utf-8') as arquivo_saida:
         json.dump(json_data, arquivo_saida, ensure_ascii=False, indent=4)
