@@ -13,6 +13,8 @@ from translate import Translator
 
 import constants
 
+import datetime
+
 # Set up OpenAI API key
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
@@ -67,9 +69,17 @@ css = """
 """
 
 with gr.Blocks(css=css) as demo:
+    
+    #Salvar conversa em arquivo de texto
+    numeroConversas = len(os.listdir("conversation"))
+
+    nome_arquivo = "arquivo_conversa_" + datetime.date.today().strftime("%Y-%m-%d") + "-" + str(numeroConversas)
+
+    caminho_arquivo = os.path.join("conversation", nome_arquivo)
+
     title = gr.HTML("<div class='divisoria-colorida-governo'><div class='cor-1' style='background-color: #ffeb36;'></div><div class='cor-2' style='background-color: #f72930;'></div><div class='cor-3' style='background-color: #399fe8;'></div><div class='cor-4' style='background-color: #00dc58;'></div><div class='cor-5' style='background-color: #0f0a0a;'></div></div><div style='text-align: center; background-color: white;'><img src='https://paraiba.pb.gov.br/imagens/imagens-site/marca-stp/Govpb.png/@@images/abaa40cc-5d26-41fc-bc49-1e4679d05a79.png' style='display: block; margin: auto;  width: 300px;'></div>")
     
-    loader = TextLoader('processData/processoRenovacaoCNH.txt', encoding="utf8")
+    loader = TextLoader('processData/servicosGerais.txt', encoding="utf8")
     loader.load()
     index = VectorstoreIndexCreator().from_loaders([loader])
 
@@ -110,7 +120,11 @@ with gr.Blocks(css=css) as demo:
         messages_history.append((message, response['answer']))
         return response['answer'], messages_history
         """
+
         messages_history.append((message, index.query(message)))
+        with open(caminho_arquivo, 'a', encoding='utf-8') as f:
+            f.write(f"usuario: \"{message}\"\n")
+            f.write(f"chatbot: \"{index.query(message).replace('\n', ' ')}\"\n")
         return index.query(message), messages_history 
         #return response.choices[0].message.content, messages_history
 

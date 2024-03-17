@@ -4,6 +4,7 @@ from thefuzz import fuzz
 
 import spacy
 import statistics
+import os
 
 nlp = spacy.load('pt_core_news_sm')
 
@@ -69,7 +70,6 @@ jsonTest = {
   },
   "fonte": "https://endereçopublico.com/lasdjfalsdf"
 }
-
-nota1, nota2 = testConversation("Renovação CNH", jsonTest, "textoTest.txt")
-
-print(nota1, nota2)
+for nome_arquivo in os.listdir("conversation"):
+    nota1, nota2 = testConversation("Renovação CNH", jsonTest, "conversation/" + nome_arquivo)
+    print(nota1, nota2)
