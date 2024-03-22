@@ -18,7 +18,8 @@ import datetime
 # Set up OpenAI API key
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
-system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
+system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\n"}
+
 """
 theme = gr.themes.Soft(
         primary_hue="sky",
@@ -34,7 +35,7 @@ css = """
     .gradio-container-4-16-0 {background-color: white;}
     .wrapper.svelte-nab2ao {background-color: white;
     border: solid 8px;
-    border-color: #F9EC00;
+    border-color: darkgrey;
     }
     label.svelte-1b6s6s{background-color: #ff4949;
     border-radius: 5px;
