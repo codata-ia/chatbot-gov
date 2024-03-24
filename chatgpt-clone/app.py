@@ -1,5 +1,5 @@
 import gradio as gr
-import openai
+from openai import OpenAI
 import time
 import os
 
@@ -18,7 +18,18 @@ import datetime
 # Set up OpenAI API key
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
-system_message = {"role": "system", "content": "You are an agent of Detran of Paraiba\nYour task is to always answer like a typical assistant to help people with doubts on some services in Detran\nAlways be kind and try to do your best to answer\n\nYour name is Detrinho, and you have a passion to help people.\nYour principal activity is Renovação de CNH."}
+client = OpenAI()
+
+with open('processData/servicosGerais.txt', 'r', encoding='utf-8') as file:
+    document_content = file.read()
+
+system_message = {"role": "system", "content": f"Contexto: {document_content}"}
+
+def init_history(messages_history):
+    messages_history = []
+    messages_history += [system_message]
+    return messages_history
+
 """
 theme = gr.themes.Soft(
         primary_hue="sky",
@@ -89,6 +100,8 @@ with gr.Blocks(css=css) as demo:
 
     state = gr.State([])
 
+    state.value = init_history(state)
+
     def user(user_message, history):
         return "", history + [[user_message, None]]
 
@@ -101,14 +114,14 @@ with gr.Blocks(css=css) as demo:
         return history, messages_history
 
     def ask_gpt(message, messages_history):
-        #messages_history += [{"role": "user", "content": message}]
-        """
-        response = openai.chat.completions.create(
+        messages_history += [{"role": "user", "content": message}]
+        
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",
             messages=messages_history,
-            top_p=1
+            temperature= 0.1
         )
-        """
+        
         #Carrega o langchain e aplica o modelo para responder de acordo com 
         """ SE FOR USADO O MODELO COM CHATOPENAI, ELE MUDA MUITO DE CONTEXTO, APLICAS APLICANDO O LLM ELE SE DETEM AO BÁSICO, 
         QUE É O QUE ESTÁ ESCRITO NO TXT, ELE POR EXEMPLO DIZ QUE A PESSOA DEVE CONSULTAR O SITE DO DETRAN, PARA MAIS INFORMAÇÕES INVÉS DE SÓ RESPONDER
@@ -121,17 +134,12 @@ with gr.Blocks(css=css) as demo:
         return response['answer'], messages_history
         """
 
-        messages_history.append((message, index.query(message)))
+        messages_history += [{"role": "assistant", "content": response.choices[0].message.content}]
         with open(caminho_arquivo, 'a', encoding='utf-8') as f:
             f.write(f"usuario: \"{message}\"\n")
-            f.write(f"chatbot: \"{index.query(message).replace('\n', ' ')}\"\n")
-        return index.query(message), messages_history 
-        #return response.choices[0].message.content, messages_history
-
-    def init_history(messages_history):
-        messages_history = []
-        messages_history.append((system_message,None))
-        return messages_history
+            f.write(f"chatbot: \"{response.choices[0].message.content.replace('\n', ' ')}\"\n")
+        #return index.query(message), messages_history 
+        return response.choices[0].message.content, messages_history
 
     msg.submit(user, [msg, chatbot], [msg, chatbot], queue=False).then(
         bot, [chatbot, state], [chatbot, state]
