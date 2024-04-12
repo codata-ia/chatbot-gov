@@ -117,7 +117,7 @@ with gr.Blocks(css=css) as demo:
         messages_history += [{"role": "user", "content": message}]
         
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo-1106",
+            model="gpt-4-turbo-2024-04-09",
             messages=messages_history,
             temperature= 0.1
         )
