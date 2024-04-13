@@ -1,0 +1,61 @@
+.gradio-container-4-16-0 {
+    background-color: white;
+}
+
+.wrapper.svelte-nab2ao {
+    background-color: white;
+    border: solid 8px;
+    border-color: #F9EC00;
+}
+
+label.svelte-1b6s6s {
+    background-color: #ff4949;
+    border-radius: 5px;
+    position: static;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    border-color: #ff4949;
+}
+
+.scroll-hide svelte-1f354aw {
+    background-color: white;
+}
+
+.user.svelte-1lcyrx4.svelte-1lcyrx4.svelte-1lcyrx4 {
+    background-color: #07542b;
+}
+
+.bot.svelte-1lcyrx4.svelte-1lcyrx4.svelte-1lcyrx4 {
+    background-color: #2484c6;
+}
+
+.block.svelte-90oupt {
+    background-color: darkgrey;
+}
+
+textarea.svelte-1f354aw.svelte-1f354aw {
+    background-color: white;
+    color: black;
+}
+
+.pending.svelte-1gpwetz {
+    background-color: darkgrey;
+}
+
+span.svelte-1gfkn6j:not(.has-info) {
+    margin-bottom: var(--spacing-lg);
+    color: white;
+}
+
+* {
+    border: none;
+}
+
+.divisoria-colorida-governo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 14px;
+    position: relative;
+    width: 100%;
+}

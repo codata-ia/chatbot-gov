@@ -1,4 +1,0 @@
-usuario: "Quero renovar minha CNH"
-
-chatbot: "Para renovar sua CNH, você precisará seguir os seguintes procedimentos:Acesse o "Portal de Serviços" e crie sua conta, validando-a com o código enviado por e-mail e criando uma senha de acesso.No seu cadastro, selecione a opção de Habilitação e emita o guia de RENOVAÇÃO da CNH. Lembre-se de pagar e guardar a fatura, pois você precisará do número dela para agendar os exames.Preencha os dados e emita o Comprovante de Renovação - RENACH. Nessa etapa, você pode escolher o local para receber sua CNH.Acesse a página de agendamento e selecione "Habilitação" para agendar a Captura ONLINE (Foto e Biometria) presencial. Compareça no local, data e hora marcada com os documentos indicados na consulta.Agende o exame médico com CPF e número da guia de renovação e compareça no local, data e horário agendados com o comprovante de agendamento e documento oficial"
-
