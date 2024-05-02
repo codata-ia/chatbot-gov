@@ -9,14 +9,14 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA
 from langchain_community.vectorstores import Chroma
 
-from translate import Translator
+# from translate import Translator
 
-import constants
+# import constants
 
 import datetime
 
 # Set up OpenAI API key
-os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = 
 
 client = OpenAI()
 
@@ -92,7 +92,7 @@ with gr.Blocks(css=css) as demo:
     
     loader = TextLoader('processData/servicosGerais.txt', encoding="utf8")
     loader.load()
-    index = VectorstoreIndexCreator().from_loaders([loader])
+    # index = VectorstoreIndexCreator().from_loaders([loader])
 
     chatbot = gr.Chatbot(label="Chatbot")
     msg = gr.Textbox(label="Caixa de texto", placeholder="Digite a sua dúvida", )
