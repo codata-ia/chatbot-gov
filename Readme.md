@@ -4,7 +4,7 @@ Desenvolvimento de uma plataforma conversacional com uso de Inteligência Artifi
 
 ## Instalação: 
 ### 1º passo: 
-Baixar e intalar o [Python](https://www.python.org/)
+Baixar e instalar o [Python](https://www.python.org/)
 
 ### 2º passo:
 Preparação do ambiente:
