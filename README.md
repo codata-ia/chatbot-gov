@@ -6,6 +6,6 @@ db_name =  - Nome do banco de dados onde vão ser armazenadas as tabelas
 db_user =  - Nome do usuário para fazer a conexão
 db_password = - Senha para fazer a conexão
 
-Executar o arquivo database_connection depois de fazer essas configurações para criar os embeddings com os servicos disponíveis na pasta data
+Executar o arquivo database_connection depois de fazer essas configurações para criar os embeddings com os servicos disponíveis na pasta que contém os arquivos txt
 
 Agora é só executar o arquivo app.py para poder fazer um prompt e obter a resposta

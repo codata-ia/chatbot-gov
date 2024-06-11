@@ -10,7 +10,7 @@ Etapas do serviço:
 4 - Realize a inspeção veicular em empresas acreditadas pelo
 Inmetro (exceto mudança de cor e adesivagem);
 5 - Agende o serviço de alteração de características (procurar por
-<Alteração de características=);
+"Alteração de características");
 6 - Compareça a unidade do Detran escolhida;
 7 - Caso opte, realize a vistoria no Detran ou traga o laudo de
 vistoria de empresa credenciada pelo Detran;
@@ -20,10 +20,10 @@ processo;
 10 - Aguarde a análise e liberação do processo (acompanhe no
 site do Detran: https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app?op=S11);
 11 - Caso haja mudança de placa, realize o agendamento
-(procurar por <Instalação de placa=);
+(procurar por "Instalação de placa");
 12 - Caso não exista pendência de instalação de placa, agende o
 recebimento do CRV quando estiver no status auditado (procurar
-por <Entrega do CRV(recibo/DUT)=);
+por "Entrega do CRV(recibo/DUT)");
 13 - Compareça para recebimento do CRV.
 
 Documentação necessária:
@@ -96,10 +96,10 @@ processo;
 9 - Aguarde a análise e liberação do processo (acompanhe no
 site do Detran);
 10 - Caso haja mudança de placa, realize o agendamento
-(procurar por <Instalação de placa=);
+(procurar por "Instalação de placa");
 11 - Caso não exista pendência de instalação de placa, agende o
 recebimento do CRV quando estiver no status auditado (procurar
-por <Entrega do CRV(recibo/DUT)=);
+por "Entrega do CRV(recibo/DUT)");
 12 - Compareça para recebimento do CRV.
 
 Documentação necessária:
@@ -153,7 +153,7 @@ VEÍCULOS - ALTERAÇÕES DE DADOS - VEÍCULOS
 Etapas do serviço:
 
 1 - Agende o serviço de alteração de dados (procurar por
-<Alteração de Dados=);
+"Alteração de Dados");
 2 - Compareça a unidade do Detran escolhida;
 3 - Caso opte, realize a vistoria no Detran ou traga o laudo de
 vistoria de empresa credenciada pelo Detran;
@@ -166,7 +166,7 @@ site do Detran);
 por Instalação de placa);
 8 - Caso não exista pendência de instalação de placa, agende o
 recebimento do CRV quando estiver no status auditado (procurar
-por <Entrega do CRV(recibo/DUT)=);
+por "Entrega do CRV(recibo/DUT)");
 9 - Compareça para recebimento do CRV.
 
 Documentação necessária:
@@ -226,7 +226,7 @@ VEÍCULOS - BAIXA DE CIRCULAÇÃO VEDADA
 Etapas do serviço:
 
 1 - Agende o serviço no site de agendamento (procurar por
-<Circulação Vedada/Média Monta=);
+"Circulação Vedada/Média Monta");
 2 - Compareça a unidade do Detran escolhida;
 3 - Procure o protocolo para abertura do processo;
 4 - Aguarde a análise e liberação do processo;

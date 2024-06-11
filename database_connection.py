@@ -6,7 +6,7 @@ from langchain_postgres.vectorstores import PGVector
 import os
 import constants
 
-DATA_PATH = "data"
+DATA_PATH = "detran_updated_services"
 
 
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY

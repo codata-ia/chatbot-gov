@@ -48,7 +48,7 @@ alterar os dados. (realize o agendamento de Alteração de dados);
 5 - Acompanhe o processo de emissão no serviço S35 "Consultar
 situação da CNH" em habilitação: https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app;
 6 - Quando o status estiver "Confirmado", acesse o agendamento
-no site (procure por "Recebimento de CNH=) e agende o
+no site (procure por "Recebimento de CNH") e agende o
 recebimento da carteira de habilitação na localidade escolhida
 previamente;
 7 - Compareça para recebimento.
@@ -94,7 +94,7 @@ de CNH";
 deseje, faça o agendamento e compareça a uma unidade do
 Detran para fazer a emissão do boleto);
 4 - Após compensação bancária, realize o agendamento no site de
-agendamento Detran (procure por <alteração dados");
+agendamento Detran (procure por "alteração dados");
 5 - Compareça a unidade do Detran e faça a abertura do processo
 no guichê de atendimento;
 6 - No portal de serviços, vá em habilitação, procure por "Agendar
@@ -653,8 +653,8 @@ aba habilitação, procure por "Solicitar CNH, 2.a Via/definitiva, faça
 o preenchimento e emita o RENACH (Registro Nacional de Condutor
 Habilitado);
 4 - Acesse a página de agendamentos, https://wsdetran.pb.gov.br/detran-agendamento/inicio, selecione
-<Habilitação=, siga para agendar <Renovação CNH com Alteração
-de dados= e agende o serviço;
+"Habilitação", siga para agendar "Renovação CNH com Alteração
+de dados" e agende o serviço;
 5 - Salve o agendamento e compareça no local, data e horário
 agendado com os documentos indicados no agendamento para
 abertura da renovação, e apresentando a documentação para a
@@ -675,7 +675,7 @@ Médico;
 9 - Salve o agendamento e compareça no local, data e horário
 agendado com os seguintes documentos indicados no
 agendamento;
-10 - ATENÇÃO: caso fique <Inapto= ou <falte= aos exames (itens 06,
+10 - ATENÇÃO: caso fique "Inapto" ou "falte" aos exames (itens 06,
 07 e 08), agendar o RETESTE acessando o agendamento do
 respectivo exame, com o CPF e mantendo o campo de número da
 guia de recolhimento em branco. Compareça no local, data e
@@ -685,9 +685,9 @@ exame);
 11 - Após apto em todos os exames, acompanhe a confirmação da
 emissão da CNH no portal de serviços, https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, na opção CONSULTAR
 SITUAÇÃO DA CNH;
-12 - Quando a <Situação da CNH= estiver <EMISSÃO CONFIRMADA=,
-acesse a página de agendamentos https://wsdetran.pb.gov.br/detran-agendamento/inicio, <Habilitação= e agende
-<Recebimento de Habilitação (CNH Impressa)=;
+12 - Quando a "Situação da CNH" estiver "EMISSÃO CONFIRMADA",
+acesse a página de agendamentos https://wsdetran.pb.gov.br/detran-agendamento/inicio, "Habilitação" e agende
+"Recebimento de Habilitação (CNH Impressa)";
 13 - Selecione no agendamento o local de recebimento escolhido
 conforme o item 6;
 14 - Salve o agendamento e compareça no local, data e horário
@@ -722,7 +722,7 @@ HABILITAÇÃO - RENOVAÇÃO DA CNH COM INCLUSÃO DE PCD
 
 Etapas do serviço:
 
-1 - Acesse/Cadastre-se no <Portal de Serviços= https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app (fique atento
+1 - Acesse/Cadastre-se no "Portal de Serviços" https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app (fique atento
 ao código que será enviado por e-mail para validar seu cadastro e
 criar senha de acesso);
 2 - No seu cadastro, acesse a coluna de serviços https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app , selecione
@@ -733,8 +733,8 @@ horas o boleto é compensado;
 aba habilitação, procure por "Solicitar CNH, 2.a Via/definitiva, faça
 o preenchimento e emita o RENACH;
 4 - Acesse a página de agendamentos https://wsdetran.pb.gov.br/detran-agendamento/inicio , selecione
-<Habilitação=, siga para agendar <Renovação CNH com Alteração
-de dados= e agende o serviço;
+"Habilitação", siga para agendar "Renovação CNH com Alteração
+de dados" e agende o serviço;
 5 - Salve o agendamento e compareça no local, com data e
 horário agendado, com os documentos indicados no
 agendamento para abertura da renovação, e apresentando a
@@ -758,8 +758,8 @@ agendado com documentos comprobatórios.
 11 - Após exame médico, agende a junta médica no portal de
 serviços.
 12 - Compareça a junta médica, e após concluída, continue
-normalmente com o serviço. ATENÇÃO: caso fique <Inapto= ou
-<falte= aos exames (itens 06, 07 e 08), agende o RETESTE
+normalmente com o serviço. ATENÇÃO: caso fique "Inapto" ou
+"falte" aos exames (itens 06, 07 e 08), agende o RETESTE
 acessando o agendamento do respectivo exame, com o CPF e
 mantendo o campo de número da guia de recolhimento em
 branco. Compareça no local, data e horário agendado, levando o
@@ -768,9 +768,9 @@ comprovante de agendamento e documento oficial com foto
 13 - Após apto em todos os exames, acompanhe a confirmação da
 emissão da CNH no portal de serviços https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, na opção CONSULTAR
 SITUAÇÃO DA CNH;
-14 - Quando a <Situação da CNH= estiver <EMISSÃO CONFIRMADA=,
-acesse a página de agendamentos https://wsdetran.pb.gov.br/detran-agendamento/inicio, acesse <Habilitação= e
-agende <Recebimento de Habilitação (CNH Impressa)=;
+14 - Quando a "Situação da CNH" estiver "EMISSÃO CONFIRMADA",
+acesse a página de agendamentos https://wsdetran.pb.gov.br/detran-agendamento/inicio, acesse "Habilitação" e
+agende "Recebimento de Habilitação (CNH Impressa)";
 15 - Selecione no agendamento o local de recebimento escolhido
 conforme o item 6;
 16 - Salve o agendamento e compareça no local, data e horário
@@ -844,7 +844,7 @@ Exame Médico;
 11 - Compareça no local, data e horário agendado para o exame
 médico, levando o comprovante de agendamento e documento
 oficial com foto (o exame é pago à clínica no dia do exame);
-12 - ATENÇÃO: caso fique <Inapto= ou <falte= aos exames (itens 08,
+12 - ATENÇÃO: caso fique "Inapto" ou "falte" aos exames (itens 08,
 09 e 10), agendar o RETESTE acessando o agendamento do
 respectivo exame, com o CPF e mantendo o campo de número da
 guia de recolhimento em branco. Compareça no local, data e
@@ -854,9 +854,9 @@ exame);
 13 - Após apto em todos os exames, acompanhe a confirmação da
 emissão da CNH no portal de serviços: https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, na opção CONSULTAR
 SITUAÇÃO DA CNH;
-14 - Quando a <Situação da CNH= estiver <EMISSÃO CONFIRMADA=,
-acesse a página de agendamentos: https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, <Habilitação= e agende
-<Recebimento de Habilitação (CNH Impressa)=;
+14 - Quando a "Situação da CNH" estiver "EMISSÃO CONFIRMADA",
+acesse a página de agendamentos: https://wsdetran.pb.gov.br/detran-portal-servicos/servlet/easynat-app, "Habilitação" e agende
+"Recebimento de Habilitação (CNH Impressa)";
 15 - Selecione no agendamento o local de recebimento escolhido
 conforme o item 6;
 16 - Salve o agendamento e compareça no local, data e horário
