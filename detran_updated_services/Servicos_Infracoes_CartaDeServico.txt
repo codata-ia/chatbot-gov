@@ -6,7 +6,7 @@ Etapas do serviço:
 
 1 - Faça o agendamento no site do Detran (procurar por
 Solicitação de suspensão de cobrança de multa, por falta de
-julgamento;
+julgamento);
 2 - Compareça com a documentação necessária e abra o
 processo no atendimento. O resultado do processo será
 disponibilizado via e-mail fornecido na abertura do processo.

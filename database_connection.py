@@ -8,9 +8,7 @@ import constants
 
 DATA_PATH = "detran_updated_services"
 
-
 os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
-
 
 def main():
     generate_data_store()
