@@ -56,5 +56,3 @@ A rota abaixo é consumida no front-end para receber uma requisição POST com u
 ```
 http://localhost:5000/predict
 ```
-
-

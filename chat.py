@@ -1,7 +1,6 @@
 import constants
 import os
 import json
-
 from langchain.prompts import ChatPromptTemplate
 from openai import OpenAI
 from database_connection import get_similarity_results
