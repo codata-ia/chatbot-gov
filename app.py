@@ -1,9 +1,6 @@
+from chat import processMessage
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-
-from chat import processMessage
-
-from fileReader import getSystemMessage
 
 app = Flask(__name__)
 CORS(app)
@@ -11,7 +8,7 @@ messages_history = []
 
 class MessageProcessor:
     def __init__(self):
-        self.messages_history = [getSystemMessage()]
+        self.messages_history = []
 
 processor = MessageProcessor()
 

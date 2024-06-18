@@ -1,3 +1,7 @@
+langchain==0.2.0
+langchain-community==0.2.0
+langchain-openai==0.1.7
+langchain-postgres==0.0.6
 annotated-types==0.7.0
 anyio==4.4.0
 blinker==1.8.2
