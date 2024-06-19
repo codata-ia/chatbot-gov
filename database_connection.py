@@ -2,13 +2,16 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_postgres.vectorstores import PGVector
+from dotenv import load_dotenv
 
 import os
 import constants
+load_dotenv()
 
 DATA_PATH = "detran_updated_services"
+print(os.environ["OPENAI_API_KEY"])
 
-os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 def main():
     generate_data_store()
