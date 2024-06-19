@@ -9,7 +9,7 @@ import constants
 load_dotenv()
 
 DATA_PATH = "detran_updated_services"
-print(os.environ["OPENAI_API_KEY"])
+# os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
 
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
