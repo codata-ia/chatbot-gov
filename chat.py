@@ -7,6 +7,8 @@ from database_connection import get_similarity_results
 
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
+# os.environ["OPENAI_API_KEY"] = constants.OPENAI_API_KEY
+
 PROMPT_TEMPLATE = """
 Responda a questão baseando-se somente no contexto a seguir:
 Você é um chatbot do Governo da Paraiba e deve seguir as seguintes diretrizes:
