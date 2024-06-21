@@ -15,15 +15,14 @@ services:
   app:
     build: .
     user: ${UID:-1000}:${GID:-1000}
-    command: [sh, /app/.docker-compose/app.sh]
+    
     environment:
       - DEBUG=True
       - DATABASE_URL=postgresql://postgres:postgres@db:15432/application
       - CACHE_URL=locmemcache://
       - LOG_LEVEL=INFO
       - USERS_SUPERUSER=00000000000
-    volumes:
-      - .:/app
+   
     ports:
       - "8000:8000"
     env_file:

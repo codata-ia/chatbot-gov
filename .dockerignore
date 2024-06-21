@@ -1,0 +1,12 @@
+Dockerfile
+.dockerignore
+docker-compose.yml
+.docker-compose
+.git
+.gitignore
+.venv
+.env
+.env.example
+README.md
+requirements.in
+requirements-dev.txt
