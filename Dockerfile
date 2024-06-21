@@ -18,8 +18,8 @@ COPY . .
 
 # COPY docker-entrypoint.sh /docker-entrypoint.sh
 
-COPY --chown=default:default docker-entrypoint.sh /docker-entrypoint.sh
+# COPY --chown=default:default docker-entrypoint.sh /docker-entrypoint.sh
 
-RUN chmod 755 /docker-entrypoint.sh
+# RUN chmod 755 /docker-entrypoint.sh
 
-CMD ["/docker-entrypoint.sh"]
+CMD ["gunicorn", "app:app" ,"--bind=0.0.0.0:8080"]
