@@ -77,12 +77,12 @@ def get_collection_name():
 
 def get_connection_string():
     CONNECTION_STRING = PGVector.connection_string_from_db_params(
-        driver = constants.db_driver, 
-        host = constants.db_host, 
-        port = constants.db_port, 
-        database = constants.db_name, 
-        user = constants.db_user, 
-        password= constants.db_password
+        driver = os.getenv("db_driver"), 
+        host = os.getenv("db_host"), 
+        port = os.getenv("db_port"), 
+        database = os.getenv("db_name"), 
+        user = os.getenv("db_user"), 
+        password= os.getenv("db_password")
     )
     return CONNECTION_STRING
 
