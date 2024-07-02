@@ -34,10 +34,8 @@ embedding_model = "text-embedding-3-small"
 CHROMA_PATH = "chroma"
 
 def processMessage(user_message, messages_history):
-    print("DENTRO 2")
     embedding_function = OpenAIEmbeddings(model=embedding_model)
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-    print("DENTRO")
 
     results = db.similarity_search(user_message, k=5)
 
