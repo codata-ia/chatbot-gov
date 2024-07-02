@@ -51,3 +51,6 @@ def save_to_chroma(chunks: list[Document]):
     db = Chroma.from_documents(
         chunks, OpenAIEmbeddings(model="text-embedding-3-small"), persist_directory=CHROMA_PATH
     )
+
+if __name__ == "__main__":
+    main()
