@@ -21,5 +21,4 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":
-    generate_data_store()
     app.run(debug=True)

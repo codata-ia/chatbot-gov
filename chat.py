@@ -3,7 +3,8 @@ import os
 import json
 from langchain.prompts import ChatPromptTemplate
 from openai import OpenAI
-from database_connection import get_similarity_results
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
 
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
@@ -28,8 +29,17 @@ client = OpenAI()
 
 model = "gpt-3.5-turbo-0125"
 
+embedding_model = "text-embedding-3-small"
+
+CHROMA_PATH = "chroma"
+
 def processMessage(user_message, messages_history):
-    results = get_similarity_results(user_message)
+    print("DENTRO 2")
+    embedding_function = OpenAIEmbeddings(model=embedding_model)
+    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    print("DENTRO")
+
+    results = db.similarity_search(user_message, k=5)
 
     context_text = "\n\n---\n\n".join([doc.page_content for doc in results])
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)

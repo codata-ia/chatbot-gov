@@ -1,6 +1,9 @@
 # API key
 constants.py
 
+# Chroma Storage
+chroma/
+
 # Flask-Migrate Files
 migrations/
 

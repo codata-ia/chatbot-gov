@@ -6,6 +6,7 @@ attrs==23.2.0
 blinker==1.8.2
 certifi==2024.6.2
 charset-normalizer==3.3.2
+chromadb=
 click==8.1.7
 constants==0.6.0
 dataclasses-json==0.6.7
